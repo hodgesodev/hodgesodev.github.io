@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Owen Hodges',
+    title: 'Owen Hodges',
     description: '',
     imageURL: '',
   },
