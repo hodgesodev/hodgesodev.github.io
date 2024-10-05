@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -28,28 +28,28 @@ const CONFIG = {
         // projects: ['hodgesodev/Reclaim'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    // external: {
-    //   header: 'My Projects',
-    //   // To hide the `External Projects` section, keep it empty.
-    //   projects: [
-    //     {
-    //       title: 'Project Name',
-    //       description:
-    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //       imageUrl:
-    //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-    //       link: 'https://example.com',
-    //     },
-    //     {
-    //       title: 'Project Name',
-    //       description:
-    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //       imageUrl:
-    //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-    //       link: 'https://example.com',
-    //     },
-    //   ],
-    // },
+    external: {
+      header: 'My Projects',
+      // To hide the `External Projects` section, keep it empty.
+      projects: [
+        {
+          title: 'Reclaim',
+          description:
+            'An old school RPG about a litch running its own gauntlet after being overthrown.',
+          imageUrl:
+            'https://github.com/hodgesodev/Reclaim/blob/master/assets/splash.png',
+          link: 'https://github.com/hodgesodev/Reclaim',
+        },
+        // {
+        //   title: 'Project Name',
+        //   description:
+        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        //   imageUrl:
+        //     'https://github.com/hodgesodev/Reclaim/blob/master/assets/splash.png',
+        //   link: 'https://github.com/hodgesodev/Reclaim',
+        // },
+      ],
+    },
   },
   seo: {
     title: 'Portfolio of Owen Hodges',
@@ -70,7 +70,7 @@ const CONFIG = {
     // dribbble: '',
     // behance: '',
     // medium: 'arifszn',
-    // dev: 'arifszn',
+    dev: 'hodgesodev',
     stackoverflow: '27645396/owen-hodges', // example: '1/jeff-atwood'
     // skype: '',
     // telegram: '',
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://hodgesodev.github.io/files/resume.pdf',
+      'https://hodgesodev.github.io/files/resume.pdf?target="_blank"',
   },
   skills: [
     'Java',
@@ -150,11 +150,11 @@ const CONFIG = {
   //   },
   // ],
   // Display articles from your medium or dev account. (Optional)
-  // blog: {
-  //   source: 'dev', // medium | dev
-  //   username: 'arifszn', // to hide blog section, keep it empty
-  //   limit: 2, // How many articles to display. Max is 10.
-  // },
+  blog: {
+    source: 'dev', // medium | dev
+    username: 'hodgesodev', // to hide blog section, keep it empty
+    limit: 3, // How many articles to display. Max is 10.
+  },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
