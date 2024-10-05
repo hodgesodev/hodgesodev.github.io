@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://hodgesodev.github.io/public/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://hodgesodev.github.io/files/resume.pdf',
   },
   skills: [
     'Java',
