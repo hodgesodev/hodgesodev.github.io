@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      './files/resume.pdf',
+      'https://github.com/hodgesodev/hodgesodev.github.io/blob/main/files/resume.pdf',
   },
   skills: [
     'Java',
